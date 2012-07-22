@@ -14,6 +14,20 @@
 #include "lauxlib.h"
 
 
+//////////////////////////////////////////////////////////////////////////
+#include "math.h"
+
+static int l_sin(lua_State * L)
+{
+	double d = luaL_checknumber(L,1); // first argument
+	lua_pushnumber(L,sin(d)); // push first result
+	return 1; // count of argument
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
 static const luaL_Reg lualibs[] = {
   {"", luaopen_base},
   {LUA_LOADLIBNAME, luaopen_package},
@@ -34,5 +48,9 @@ LUALIB_API void luaL_openlibs (lua_State *L) {
     lua_pushstring(L, lib->name);
     lua_call(L, 1, 0);
   }
+
+  // most simple c extend
+  lua_pushcfunction(L,l_sin);
+  lua_setglobal(L,"mysin");
 }
 

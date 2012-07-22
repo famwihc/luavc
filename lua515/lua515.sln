@@ -30,6 +30,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test5", "test5\test5.vcproj
 		{945FCC28-7888-4754-A43C-276E9C08CE7E} = {945FCC28-7888-4754-A43C-276E9C08CE7E}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua515", "lua515\lua515.vcproj", "{50E7A150-9269-4E0E-9EDB-1DC3DA6E5CD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mylib", "mylib\mylib.vcproj", "{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{945FCC28-7888-4754-A43C-276E9C08CE7E} = {945FCC28-7888-4754-A43C-276E9C08CE7E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -64,6 +71,14 @@ Global
 		{DC1C2447-6C77-49E5-928F-0AEB1427FF72}.Debug|Win32.Build.0 = Debug|Win32
 		{DC1C2447-6C77-49E5-928F-0AEB1427FF72}.Release|Win32.ActiveCfg = Release|Win32
 		{DC1C2447-6C77-49E5-928F-0AEB1427FF72}.Release|Win32.Build.0 = Release|Win32
+		{50E7A150-9269-4E0E-9EDB-1DC3DA6E5CD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50E7A150-9269-4E0E-9EDB-1DC3DA6E5CD0}.Debug|Win32.Build.0 = Debug|Win32
+		{50E7A150-9269-4E0E-9EDB-1DC3DA6E5CD0}.Release|Win32.ActiveCfg = Release|Win32
+		{50E7A150-9269-4E0E-9EDB-1DC3DA6E5CD0}.Release|Win32.Build.0 = Release|Win32
+		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Debug|Win32.Build.0 = Debug|Win32
+		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Release|Win32.ActiveCfg = Release|Win32
+		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
