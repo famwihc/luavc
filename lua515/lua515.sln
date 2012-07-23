@@ -37,6 +37,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mylib", "mylib\mylib.vcproj
 		{945FCC28-7888-4754-A43C-276E9C08CE7E} = {945FCC28-7888-4754-A43C-276E9C08CE7E}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myxml", "myxml\myxml.vcproj", "{9F225806-48C6-4D7A-BAAC-7DBD766CC605}"
+	ProjectSection(ProjectDependencies) = postProject
+		{945FCC28-7888-4754-A43C-276E9C08CE7E} = {945FCC28-7888-4754-A43C-276E9C08CE7E}
+		{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898} = {B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expat", "expat\expat.vcproj", "{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -79,6 +87,14 @@ Global
 		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Debug|Win32.Build.0 = Debug|Win32
 		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Release|Win32.ActiveCfg = Release|Win32
 		{F9F604C2-5CB4-42C5-9B72-F5A0487AABA0}.Release|Win32.Build.0 = Release|Win32
+		{9F225806-48C6-4D7A-BAAC-7DBD766CC605}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F225806-48C6-4D7A-BAAC-7DBD766CC605}.Debug|Win32.Build.0 = Debug|Win32
+		{9F225806-48C6-4D7A-BAAC-7DBD766CC605}.Release|Win32.ActiveCfg = Release|Win32
+		{9F225806-48C6-4D7A-BAAC-7DBD766CC605}.Release|Win32.Build.0 = Release|Win32
+		{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}.Debug|Win32.Build.0 = Debug|Win32
+		{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}.Release|Win32.ActiveCfg = Release|Win32
+		{B7433B3F-7BA6-4A2B-8F90-CEB2E2965898}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
